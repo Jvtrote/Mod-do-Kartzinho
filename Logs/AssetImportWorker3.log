@@ -15,7 +15,7 @@ C:/Users/ra00346648/Documents/GitHub/Mod-do-Kartzinho
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-64247
+50549
 -job-worker-count
 9
 -background-job-worker-count
@@ -59,16 +59,16 @@ C:/Users/ra00346648/Documents/GitHub/Mod-do-Kartzinho
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [6472]  Target information:
+Player connection [5548]  Target information:
 
-Player connection [6472]  * "[IP] 172.17.12.23 [Port] 0 [Flags] 2 [Guid] 2838959859 [EditorId] 2838959859 [Version] 1048832 [Id] WindowsEditor(7,DSP-BRJ3055CJC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [5548]  * "[IP] 172.17.12.23 [Port] 0 [Flags] 2 [Guid] 1651898754 [EditorId] 1651898754 [Version] 1048832 [Id] WindowsEditor(7,DSP-BRJ3055CJC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [6472]  * "[IP] 172.22.160.1 [Port] 0 [Flags] 2 [Guid] 2838959859 [EditorId] 2838959859 [Version] 1048832 [Id] WindowsEditor(7,DSP-BRJ3055CJC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [5548]  * "[IP] 172.23.208.1 [Port] 0 [Flags] 2 [Guid] 1651898754 [EditorId] 1651898754 [Version] 1048832 [Id] WindowsEditor(7,DSP-BRJ3055CJC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [6472]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2838959859 [EditorId] 2838959859 [Version] 1048832 [Id] WindowsEditor(7,DSP-BRJ3055CJC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [5548]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1651898754 [EditorId] 1651898754 [Version] 1048832 [Id] WindowsEditor(7,DSP-BRJ3055CJC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [6472] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [6472] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [5548] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [5548] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 9
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -80,7 +80,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.38 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 3.10 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.35f1 (9a3bc604008a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.35f1-x86_64/Editor/Data/Resources/UnitySubsystems
@@ -96,50 +96,65 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1-x86_64/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1-x86_64/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1-x86_64/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56052
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56912
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.35f1-x86_64/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.35f1-x86_64/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.35f1-x86_64/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.001740 seconds.
-- Loaded All Assemblies, in  0.312 seconds
+Registered in 0.002215 seconds.
+- Loaded All Assemblies, in  0.398 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 2166 ms
+CommandWithNoStdoutInvokationFailure: Unable to start ADB server. Please make sure the Android SDK is installed and is properly configured in the Editor. See the Console for more details.
+  at UnityEditor.Android.Command.RunWithShellExecute (System.String command, System.String args, System.String workingdir, System.String errorMsg) [0x00060] in <b5ea4232ea9e4e1cb4eabf38769a7d9f>:0 
+  at UnityEditor.Android.ADB.StartServer () [0x00013] in <b5ea4232ea9e4e1cb4eabf38769a7d9f>:0 
+  at UnityEditor.Android.ADB.Run (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0000b] in <b5ea4232ea9e4e1cb4eabf38769a7d9f>:0 
+  at UnityEditor.Android.AndroidDeploymentTargetsExtension.GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext context, UnityEditor.ProgressHandler progressHandler) [0x002ae] in <b5ea4232ea9e4e1cb4eabf38769a7d9f>:0 
+  at UnityEditor.Android.TargetScanWorker.ScanSync () [0x00049] in <b5ea4232ea9e4e1cb4eabf38769a7d9f>:0 
+  at UnityEditor.Android.TargetExtension.OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[] usbDevices) [0x00087] in <b5ea4232ea9e4e1cb4eabf38769a7d9f>:0 
+  at UnityEditor.Android.TargetExtension.OnLoad () [0x000af] in <b5ea4232ea9e4e1cb4eabf38769a7d9f>:0 
+  at UnityEditor.Modules.ModuleManager.InitializePlatformSupportModules () [0x000ba] in <2f9d421960d84dffaa88793de0f4b5f3>:0 
+UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Modules.ModuleManager:InitializePlatformSupportModules()
+
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.472 seconds
-Domain Reload Profiling: 2784ms
-	BeginReloadAssembly (115ms)
+- Finished resetting the current domain, in  3.715 seconds
+Domain Reload Profiling: 4112ms
+	BeginReloadAssembly (97ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (29ms)
+	RebuildCommonClasses (28ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (122ms)
-		LoadAssemblies (115ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (220ms)
+		LoadAssemblies (100ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (120ms)
-			TypeCache.Refresh (118ms)
-				TypeCache.ScanAssembly (108ms)
+		AnalyzeDomain (213ms)
+			TypeCache.Refresh (212ms)
+				TypeCache.ScanAssembly (197ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (2472ms)
+	FinalizeReload (3715ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2447ms)
+		SetupLoadedEditorAssemblies (3684ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2243ms)
+			InitializePlatformSupportModulesInManaged (3451ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (44ms)
-			ProcessInitializeOnLoadAttributes (106ms)
-			ProcessInitializeOnLoadMethodAttributes (50ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (127ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -149,176 +164,106 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.531 seconds
-Refreshing native plugins compatible for Editor in 2.40 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.680 seconds
+Refreshing native plugins compatible for Editor in 3.04 ms, found 2 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.36 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.74 ms, found 2 plugins.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.624 seconds
-Domain Reload Profiling: 1157ms
-	BeginReloadAssembly (140ms)
+- Finished resetting the current domain, in  0.771 seconds
+Domain Reload Profiling: 1450ms
+	BeginReloadAssembly (130ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (328ms)
-		LoadAssemblies (284ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (487ms)
+		LoadAssemblies (399ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (126ms)
-			TypeCache.Refresh (94ms)
-				TypeCache.ScanAssembly (79ms)
-			BuildScriptInfoCaches (26ms)
+		AnalyzeDomain (163ms)
+			TypeCache.Refresh (134ms)
+				TypeCache.ScanAssembly (115ms)
+			BuildScriptInfoCaches (25ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (627ms)
+	FinalizeReload (772ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (529ms)
+		SetupLoadedEditorAssemblies (630ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (84ms)
-			ProcessInitializeOnLoadAttributes (297ms)
-			ProcessInitializeOnLoadMethodAttributes (127ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (336ms)
+			ProcessInitializeOnLoadMethodAttributes (183ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 3.61 ms, found 2 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2.65 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3244 unused Assets / (3.3 MB). Loaded Objects now: 3735.
-Memory consumption went from 97.6 MB to 94.3 MB.
-Total: 13.055200 ms (FindLiveObjects: 0.379800 ms CreateObjectMapping: 0.280100 ms MarkObjects: 10.388400 ms  DeleteObjects: 2.005400 ms)
+Unloading 3244 unused Assets / (3.5 MB). Loaded Objects now: 3735.
+Memory consumption went from 97.6 MB to 94.1 MB.
+Total: 11.752100 ms (FindLiveObjects: 0.255900 ms CreateObjectMapping: 0.167200 ms MarkObjects: 10.000800 ms  DeleteObjects: 1.326900 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 6729.054609 seconds.
-  path: Assets/KartTemplate/Prefabs/Environment/BuidingTall.prefab
-  artifactKey: Guid(041b3704a3df0fd4a8e325e3044c3b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KartTemplate/Prefabs/Environment/BuidingTall.prefab using Guid(041b3704a3df0fd4a8e325e3044c3b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '038273f94c13ec6702d10ccbc9410ddc') in 0.1553271 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 741
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.460 seconds
+Refreshing native plugins compatible for Editor in 2.95 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.711 seconds
+Domain Reload Profiling: 1172ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (254ms)
+		LoadAssemblies (244ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (88ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (77ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (712ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (599ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (286ms)
+			ProcessInitializeOnLoadMethodAttributes (210ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3242 unused Assets / (3.9 MB). Loaded Objects now: 3735.
+Memory consumption went from 87.8 MB to 83.9 MB.
+Total: 11.437600 ms (FindLiveObjects: 0.319800 ms CreateObjectMapping: 0.178900 ms MarkObjects: 9.123700 ms  DeleteObjects: 1.813900 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/KartTemplate/Prefabs/Environment/Building02WallBricks.prefab
-  artifactKey: Guid(3beaf9cd12e8c0a4d921aa0bb65380c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KartTemplate/Prefabs/Environment/Building02WallBricks.prefab using Guid(3beaf9cd12e8c0a4d921aa0bb65380c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fb5c656751160bbb827bba216022e7e') in 0.0169159 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/ChallengeAssets/Platformer/Bounce Effect Prefabs/BouncySparkly.prefab
-  artifactKey: Guid(757c3553bc78148bab809d2e1d440dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ChallengeAssets/Platformer/Bounce Effect Prefabs/BouncySparkly.prefab using Guid(757c3553bc78148bab809d2e1d440dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc6260d247b7bb1872034f9eda8aaba0') in 0.0282275 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/ChallengeAssets/Platformer/Trail Prefabs/RainbowTrail.prefab
-  artifactKey: Guid(5c49c1613def9483585c222067115b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ChallengeAssets/Platformer/Trail Prefabs/RainbowTrail.prefab using Guid(5c49c1613def9483585c222067115b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e00569e779609f870bf46b5626b26bdd') in 0.018487 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/KartTemplate/Prefabs/Environment/BuidingThin.prefab
-  artifactKey: Guid(6e78c73d0c22422438a45bea2842fcfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KartTemplate/Prefabs/Environment/BuidingThin.prefab using Guid(6e78c73d0c22422438a45bea2842fcfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7b344082164ba7406a6b79355d6f1ea') in 0.0214756 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 674
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/ChallengeAssets/Platformer/Bounce Effect Prefabs/BouncyGlowy.prefab
-  artifactKey: Guid(e8ac9fddd495344dd969dab643f1506b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ChallengeAssets/Platformer/Bounce Effect Prefabs/BouncyGlowy.prefab using Guid(e8ac9fddd495344dd969dab643f1506b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1252d58b30cecc4c85590b6c7c429da7') in 0.0147713 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/ChallengeAssets/2D Props/Billboard Prefabs/Billboard Tall.prefab
-  artifactKey: Guid(fe65a6c2ced93428d9720493d56c3177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ChallengeAssets/2D Props/Billboard Prefabs/Billboard Tall.prefab using Guid(fe65a6c2ced93428d9720493d56c3177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f45706160c620aacb12016119fa8785') in 0.0278525 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/KartTemplate/Prefabs/Environment/BuidingMedium.prefab
-  artifactKey: Guid(88017844a1245554fb36a6790969f12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KartTemplate/Prefabs/Environment/BuidingMedium.prefab using Guid(88017844a1245554fb36a6790969f12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19f53c1a8a84a2d0def0936af4e848fb') in 0.0239343 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 469
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/KartTemplate/Prefabs/Environment/Building01CornerPlain.prefab
-  artifactKey: Guid(923761a646988454ba4628782e4e8ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KartTemplate/Prefabs/Environment/Building01CornerPlain.prefab using Guid(923761a646988454ba4628782e4e8ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41ead3cca2c8b128fda786a8e98d18f0') in 0.0224465 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Packages/com.unity.analytics/DataPrivacy/DataPrivacyButton.prefab
-  artifactKey: Guid(71b11355001648444b41d17fd36c150d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.analytics/DataPrivacy/DataPrivacyButton.prefab using Guid(71b11355001648444b41d17fd36c150d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ec98b8d43437ccfb2f07bed7e25f423') in 0.017384 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/KartTemplate/Prefabs/Environment/RoofCentral.prefab
-  artifactKey: Guid(2f03e2f1c391cdc4bad90a6ee620aaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KartTemplate/Prefabs/Environment/RoofCentral.prefab using Guid(2f03e2f1c391cdc4bad90a6ee620aaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bfd2c0a081527b3224a35e38107f8d15') in 0.0138099 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/KartTemplate/Prefabs/Button.prefab
-  artifactKey: Guid(a52712b80a6dbc0418a24741c5a70352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KartTemplate/Prefabs/Button.prefab using Guid(a52712b80a6dbc0418a24741c5a70352) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eabad29f87af9a9da894d11fdbe35ea2') in 0.0235429 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/KartTemplate/Prefabs/Environment/RoofCorner.prefab
-  artifactKey: Guid(2de71dd77d75abc4d8abf9523820123a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KartTemplate/Prefabs/Environment/RoofCorner.prefab using Guid(2de71dd77d75abc4d8abf9523820123a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'caf8f8507dcd9e922372ffb4b9611588') in 0.0153537 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/KartTemplate/Prefabs/Environment/Stone2.prefab
-  artifactKey: Guid(230dd9257fca2c249b555f6edd3c8e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KartTemplate/Prefabs/Environment/Stone2.prefab using Guid(230dd9257fca2c249b555f6edd3c8e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '193ecc73578d155a183f102ce4244859') in 0.0016876 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/KartTemplate/Prefabs/Environment/BuidingShortVariant.prefab
-  artifactKey: Guid(9d3aa163d61f94b4aa85333f834cbba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KartTemplate/Prefabs/Environment/BuidingShortVariant.prefab using Guid(9d3aa163d61f94b4aa85333f834cbba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd49b02d9898e8f57acf3d756b557bb69') in 0.0202441 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 634
-
+Prepare: number of updated asset objects reloaded= 0
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
